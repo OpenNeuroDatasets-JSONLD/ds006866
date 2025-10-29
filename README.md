@@ -1,6 +1,6 @@
 # Emotion Processing and Regulation Task (Static Stimuli) — EEG Dataset
 
-This dataset contains EEG recordings and behavioral data from the **Emotion Processing and Regulation** task with **static emotional stimuli**. 
+This dataset contains EEG recordings and behavioral data from the **Emotion Processing and Regulation** task with static emotional stimuli. 
 
 * **Preregistration:** [https://osf.io/g8qey](https://osf.io/g8qey)
 * **Preprint:** [https://osf.io/preprints/psyarxiv/v9dt3_v2](https://osf.io/preprints/psyarxiv/v9dt3_v2)
