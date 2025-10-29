@@ -35,10 +35,10 @@ PO7, PO5, PO3, POZ, PO4, PO6, PO8, CB1, O1, OZ, O2, CB2
 
 ### Additional Sensors
 
-* **HEO (Horizontal EOG)** 
-* **VEO (Vertical EOG)** 
-* **EKG** 
-* **GSR/EDA** 
+* HEO (Horizontal EOG)
+* VEO (Vertical EOG)
+* EKG
+* GSR/EDA
 
 ---
 
