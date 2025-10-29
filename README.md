@@ -24,7 +24,7 @@ The single session comprised 240 trials, split evenly across six conditions defi
 * **EEG Cap:** 64-channel QuickCap
 * **Amplifier:** Neuroscan SynampsRT
 * **Sampling rate:** 1000 Hz
-* **Impedance:** maintained below 5 kΩ throughout the session.
+* **Impedance:** below 5 kΩ
 
 ### Recorded Channels
 
