@@ -15,7 +15,7 @@ This dataset contains EEG recordings and behavioral data from the **Emotion Proc
 
 ## Experimental Design
 
-The single session comprised 240 trials, split evenly across six conditions defined by stimulus content type (social, non-social) and instruction (neutral-watch, negative-watch, negative-reappraise). On each trial, participants viewed a static image and either passively watched it or reappraised it as instructed.
+The single session comprised 240 trials, split evenly across six conditions defined by stimulus content type Participants completed 240 trials in a single session, evenly allocated to a 2 (content: social, non-social) × 3 (regulation requirement: watch-neutral, watch-negative, reappraise-negative) factorial design. On each trial, they viewed a static image for 5 s and either passively watched it or reappraised it as instructed. They then rated arousal and subsequently valence of the image on separate 9-point scales.
 
 ---
 
