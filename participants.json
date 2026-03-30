@@ -1,12 +1,59 @@
 {
   "participant_id": {
-    "Description": "Unique participant label"
+    "Description": "Unique participant label",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": "Participant ID"
+      },
+      "VariableType": "Identifier"
+    }
   },
   "UCLA_R": {
-    "Description": "UCLA Loneliness Scale (Revised) score, measuring perceived loneliness."
+    "Description": "UCLA Loneliness Scale (Revised) score, measuring perceived loneliness.",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Assessment",
+        "Label": "Assessment Tool"
+      },
+      "VariableType": "Collection",
+      "IsPartOf": {
+        "TermURL": "snomed:1103791000000109",
+        "Label": "Revised UCLA (University of California Los Angeles) Loneliness scale"
+      },
+      "MissingValues": [
+        "n/a",
+        "N/A",
+        "na",
+        "NA",
+        "nan",
+        "NaN",
+        ""
+      ]
+    }
   },
   "LSAS": {
-    "Description": "Liebowitz Social Anxiety Scale score, assessing social anxiety."
+    "Description": "Liebowitz Social Anxiety Scale score, assessing social anxiety.",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Assessment",
+        "Label": "Assessment Tool"
+      },
+      "VariableType": "Collection",
+      "IsPartOf": {
+        "TermURL": "snomed:1231512007",
+        "Label": "Liebowitz Social Anxiety Scale"
+      },
+      "MissingValues": [
+        "n/a",
+        "N/A",
+        "na",
+        "NA",
+        "nan",
+        "NaN",
+        ""
+      ]
+    }
   },
   "CESD": {
     "Description": "Center for Epidemiologic Studies Depression Scale score, measuring depressive symptoms."
@@ -18,10 +65,48 @@
     "Description": "Cost of set shifting, measuring cognitive flexibility."
   },
   "Gender": {
-    "Description": "Participant gender. Velues: 1-Female, 2-Male"
+    "Description": "Participant gender. Velues: 1-Female, 2-Male",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": "Sex"
+      },
+      "VariableType": "Categorical",
+      "Levels": {
+        "1": {
+          "TermURL": "snomed:248152002",
+          "Label": "Female"
+        },
+        "2": {
+          "TermURL": "snomed:248153007",
+          "Label": "Male"
+        }
+      },
+      "MissingValues": []
+    }
   },
   "Age": {
-    "Description": "Participant age in years."
+    "Description": "Participant age in years.",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Age",
+        "Label": "Age"
+      },
+      "VariableType": "Continuous",
+      "Format": {
+        "TermURL": "nb:FromFloat",
+        "Label": "float"
+      },
+      "MissingValues": [
+        "n/a",
+        "N/A",
+        "na",
+        "NA",
+        "nan",
+        "NaN",
+        ""
+      ]
+    }
   },
   "CERQ_OS": {
     "Description": "Cognitive Emotion Regulation Questionnaire - Self-blame subscale score."
